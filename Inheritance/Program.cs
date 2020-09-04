@@ -29,11 +29,38 @@ namespace Inheritance
              * Creatively display the class member values 
              */
 
+            var myBird = new Bird();
+            {
+                myBird.Legs = 2;
+                myBird.Lifespan = 80;
+                myBird.Color = "Red and Yellow";
+                myBird.Diet = "Saltines";
+                myBird.Flight = true;
+                myBird.Species = "Parrot";
+                myBird.Sound = "Caw";
+                myBird.WingSpan = 14;
+            }
+
+
             /*Create an object of your Reptile class
              *  give values to your members using the object of your Bird class
              *  
              * Creatively display the class member values 
              */
+
+            var myReptile = new Reptile()
+            {
+                Legs = 4,
+                Lifespan = 70,
+                Color = "Black",
+                Diet = "Birds",
+                Group = "Crocodylidae",
+                SkinType = "Scutes ",
+                BirthMethod = "Eggs",
+                Tail = true
+            };
+
+
         }
     }
 }
